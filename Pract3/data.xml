@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root xmlns:example="http://example.namespace.com" version="1.0">
+  <data xmlns="http://www.lcc.arts.ac.uk/">
+    <fruit_id>1</fruit_id>
+    <fruit_name>Banana</fruit_name>
+    <fruit_colour>yellow</fruit_colour>
+    <price_per_kg>2,99</price_per_kg>
+  </data>
+  <data xmlns="http://www.lcc.arts.ac.uk/">
+    <fruit_id>2</fruit_id>
+    <fruit_name>Orange</fruit_name>
+    <fruit_colour>orange</fruit_colour>
+    <price_per_kg>245</price_per_kg>
+  </data>
+  <data xmlns="http://www.lcc.arts.ac.uk/">
+    <fruit_id>3</fruit_id>
+    <fruit_name>Strawberry</fruit_name>
+    <fruit_colour>red</fruit_colour>
+    <price_per_kg>4,99</price_per_kg>
+  </data>
+</root>

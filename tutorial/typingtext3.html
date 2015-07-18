@@ -1,0 +1,85 @@
+<html>
+    <head>
+        <style type="text/css">
+            #myTypingText {
+                background-color:#000;
+                width:700px;
+                height:220px;
+                padding:12px;
+                color:#FFF;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                line-height:1.5em;
+            }
+        </style>
+        <title>Typing Effect - by Zillion</title>
+        <script type='text/javascript'>
+            var index = 0;
+            var text = '<html> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque tincidunt, nulla at tempus tristique, nisl leo molestie est, ut vestibulum mauris mauris a odio. Sed at massa vitae ipsum venenatis porta. Integer iaculis pretium tempus. Donec viverra sollicitudin velit non gravida. Phasellus sit amet tortor odio. Vivamus lectus nisl, suscipit porttitor bibendum ut, tristique quis dui. Vestibulum non eros leo. Maecenas tincidunt semper turpis, a tristique purus pretium sit amet. Praesent nec neque tortor.Donec suscipit tristique ante quis molestie. Phasellus ac lacus non felis faucibus dictum vitae ac ipsum. Sed pharetra nulla sodales nulla porta imperdiet. Quisque pretium hendrerit laoreet.</html>';
+            // Here you can put in the text you want to make it type.
+            function type()
+            {
+        var text= document.getElementById('txtCode').innerHTML;        
+        document.getElementById('myTypingText').innerText += text.charAt(index);
+                index += 1;
+                var t = setTimeout('type()', 180);
+                // The time taken for each character here is 100ms. You can change it if you want.
+            }
+        </script>
+    </head>
+    <body onload='type()'>
+        <!-- And here, you create the container in which you display the typed text -->
+        <div id='myTypingText'></div>
+        <textarea name="txtCode" id="txtCode" rows="40" cols="200">
+<html>
+    <head></head>
+    <body>
+        <?php
+        $r = new HttpRequest('https://www.google.com.sg/?gws_rd=cr&ei=OKQ_UraZGcTprQeavIEo', HttpRequest::METH_GET);
+//set headers
+        $arrayHeaders = array("as_q" => "Web Service",
+            "sitesearch" => "http://www.sp.edu.sg/",
+            "s" =>"images"
+        );
+
+        $r->addQueryData($arrayHeaders);
+        try {
+            $r->send();
+            echo '<h2>Request Header</h2>';
+            echo '<pre>';
+            print_r($r->getRawRequestMessage());
+            echo '</pre>';
+
+            $responseCode = $r->getResponseCode();
+            $responseHeader = $r->getResponseHeader();
+            $responseBody = $r->getResponseBody();
+            echo '--------------------------------------------------------------------------------------------<br/>';
+            echo '<h2>Rseponse Code</h2>';
+            echo "resonse code " . $responseCode . "<br/>";
+            // echo "resonse header" . $responseHeader["location"] . "<br/>";
+            echo '<h2>Rseponse Header</h2>';
+            echo '<pre>';
+            print_r($responseHeader);
+            echo '</pre>';
+
+            echo '<h2>Rseponse Body</h2>';
+            echo '<pre>';
+            print_r($responseBody);
+            echo '</pre>';
+            // display Header location field";
+            echo '<h2>Rseponse Header Location</h2>';
+            echo '<pre>';
+            print_r($responseHeader["Location"]);
+            echo '</pre>';
+        } catch (HttpException $ex) {
+            echo $ex;
+        }
+        // Display the request and response
+        ?>
+
+    </body>
+
+</html>
+    </textarea>
+    </body>
+</html>

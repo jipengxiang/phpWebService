@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DeviceList xmlns="http://tempuri.org/MobileDevice.xsd">   
+    <EquipmentInfo>
+        <WirelessON>Y</WirelessON>
+        <BlueToothON>N</BlueToothON>
+        <InfraredON>Y</InfraredON>
+        <DeviceRegistered>
+            <DeviceCode>13530</DeviceCode>                
+            <Brand>Nokia</Brand>
+            <ModelNo>N73</ModelNo>                 
+            <IMEINo>12345798136AAA</IMEINo>
+        </DeviceRegistered>  
+    </EquipmentInfo>
+    <EquipmentInfo>
+        <WirelessON>N</WirelessON>
+        <BlueToothON>N</BlueToothON> 
+        <InfraredON>Y</InfraredON>
+        <DeviceRegistered>
+            <DeviceCode>180345</DeviceCode>
+            <Brand>Samsung</Brand>
+            <ModelNo>S312</ModelNo>
+            <IMEINo>325466AEW</IMEINo>
+        </DeviceRegistered>
+    </EquipmentInfo>
+</DeviceList>

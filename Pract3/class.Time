@@ -1,0 +1,31 @@
+<?php
+
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+/**
+ * Description of Class
+ *
+ * @author s29917
+ */
+class Time {
+
+    var $sTime;
+
+    //declares a new function.
+    function GenerateCurrentTime() {
+        //generate the time as we did before, assigning it to the variable $sTime 
+        $sTime = gmdate("d-m-Y H:i:s");
+        // return the value of this variable
+        return $sTime;
+    }
+
+    function ShowFutureDate($iAddDays = 0) {
+        $sTime = gmdate("d-m-Y H:i:s", strtotime("+" . $iAddDays . " days"));
+        return $sTime;
+    }
+
+}
+?>

@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <style type="text/css">
+            #myTypingText {
+                background-color:#000;
+                width:700px;
+                height:120px;
+                padding:12px;
+                color:#FFF;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:16px;
+                line-height:1.5em;
+            }
+        </style>
+        <script type="text/javascript" language="javascript">
+
+            var loopTimer;
+            function frameLooper(myArray) {
+                if (myArray.length > 0) {
+                    document.getElementById("myTypingText").innerHTML += myArray.shift();
+                } else {
+                    clearTimeout(loopTimer);
+                }
+                loopTimer = setTimeout('frameLooper()', 70);
+            }
+            frameLooper();
+        </script>
+    </head>
+    <body>
+        <div id="myTypingText"></div>
+
+        <br/>
+        <a href="http://www.developphp.com/view.php?tid=1131"> tutorial page </a>
+        <br/>
+        <iframe width="560" height="315" src="http://www.youtube.com/embed/co7RPq2Ox90" frameborder="0" allowfullscreen></iframe>
+
+
+        <textarea name="txtCode" id="txtCode" rows="40" cols="200">
+        <html> how are djfghkj asdgjh ewt wetjh sdgjhjshgkg
+        </textarea>
+        <script type="text/javascript" language="javascript">
+            var myString = "<html>Place your string data here, and as much as you like.";
+            var myString = document.getElementById('txtCode').innerHTML;
+            var myArray = myString.split("");
+
+            frameLooper(myArray);
+        </script>
+    </body>
+</html>

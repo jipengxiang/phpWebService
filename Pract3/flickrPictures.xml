@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dc="http://purl.org/dc/elements/1.1/"
+      xmlns:flickr="urn:flickr:user"
+      xmlns:media="http://search.yahoo.com/mrss/">
+
+  <title>Content from kittens</title>
+  <link rel="self" href="http://api.flickr.com/services/feeds/photoset.gne?set=72157627229375826&amp;nsid=73845487@N00&amp;lang=en-us" />
+  <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/planetoftheweb/sets/72157627229375826"/>
+  <id>tag:flickr.com,2005:http://www.flickr.com/photos/73845487@N00/sets/72157627229375826</id>
+  <icon>http://farm6.staticflickr.com/5023/5870750337_5af127591b_s.jpg</icon>
+  <subtitle>Assorted pictures of cats I've taken over the years.</subtitle>
+  <updated>2011-11-01T01:55:00Z</updated>
+  <generator uri="http://www.flickr.com/">Flickr</generator>
+  
+  
+  <entry>
+    <title>Sniggles</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/planetoftheweb/6301005886/in/set-72157627229375826/"/>
+    <id>tag:flickr.com,2005:/photo/6301005886/in/set-72157627229375826</id>
+    <published>2011-11-01T01:55:00Z</published>
+    <updated>2011-11-01T01:55:00Z</updated>
+    <flickr:date_taken>2011-10-29T11:03:42-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-10-29T11:03:42-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/planetoftheweb/&quot;&gt;planetoftheweb&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/planetoftheweb/6301005886/&quot; title=&quot;Sniggles&quot;&gt;&lt;img src=&quot;http://farm7.staticflickr.com/6051/6301005886_eb066a340a_m.jpg&quot; width=&quot;240&quot; height=&quot;160&quot; alt=&quot;Sniggles&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Our cat sniggles has taken over the baby's stroller while it's on the porch. She seems to thing it makes and excellent Pet bed&lt;/p&gt;</content>
+    <author>
+      <name>planetoftheweb</name>
+      <uri>http://www.flickr.com/people/planetoftheweb/</uri>
+      <flickr:nsid>73845487@N00</flickr:nsid>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm7.staticflickr.com/6051/6301005886_eb066a340a_b.jpg" />
+    <category term="pet" scheme="http://www.flickr.com/photos/tags/" />
+    <category term="cat" scheme="http://www.flickr.com/photos/tags/" />
+</entry>
+
+<entry>
+    <title>White cat</title>
+    <link rel="alternate" type="text/html" href="http://www.flickr.com/photos/planetoftheweb/5870750337/in/set-72157627229375826/"/>
+    <id>tag:flickr.com,2005:/photo/5870750337/in/set-72157627229375826</id>
+    <published>2011-07-19T04:49:38Z</published>
+    <updated>2011-07-19T04:49:38Z</updated>
+    <flickr:date_taken>2011-06-25T13:38:11-08:00</flickr:date_taken>
+    <dc:date.Taken>2011-06-25T13:38:11-08:00</dc:date.Taken>
+    <content type="html">			&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/people/planetoftheweb/&quot;&gt;planetoftheweb&lt;/a&gt; posted a photo:&lt;/p&gt;
+	
+&lt;p&gt;&lt;a href=&quot;http://www.flickr.com/photos/planetoftheweb/5870750337/&quot; title=&quot;White cat&quot;&gt;&lt;img src=&quot;http://farm6.staticflickr.com/5023/5870750337_5af127591b_m.jpg&quot; width=&quot;160&quot; height=&quot;240&quot; alt=&quot;White cat&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;The bed where they sleep has this red cover which when in sunlight shines red on the cats.&lt;/p&gt;</content>
+    <author>
+      <name>planetoftheweb</name>
+      <uri>http://www.flickr.com/people/planetoftheweb/</uri>
+      <flickr:nsid>73845487@N00</flickr:nsid>
+    </author>
+    <link rel="enclosure" type="image/jpeg" href="http://farm6.staticflickr.com/5023/5870750337_5af127591b_b.jpg" />
+    <category term="cats" scheme="http://www.flickr.com/photos/tags/" />
+    <category term="kittens" scheme="http://www.flickr.com/photos/tags/" />
+    <category term="meagan" scheme="http://www.flickr.com/photos/tags/" />
+</entry>
+
+</feed>

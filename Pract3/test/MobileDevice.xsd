@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="MobileDevice" targetNamespace="http://tempuri.org/MobileDevice.xsd" elementFormDefault="qualified" xmlns="http://tempuri.org/MobileDevice.xsd" xmlns:mstns="http://tempuri.org/MobileDevice.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:simpleType name="deviceID">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:pattern value="\d{6}" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:complexType name="Device">
+    <xs:sequence>
+      <xs:element name="DeviceCode" type="deviceID" />
+      <xs:element name="Brand" type="xs:string" />
+      <xs:element name="ModelNo" type="xs:string" />
+      <xs:element name="IMEINo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="DeviceList">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="EquipmentInfo">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="WirelessON" type="xs:string" />
+              <xs:element name="BlueToothON" type="xs:string" />
+              <xs:element name="InfraredON" type="xs:string" />
+              <xs:element name="DeviceRegistered" type="Device" />
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
+

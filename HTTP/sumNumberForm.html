@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sum Number Form</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <style>
+            body {
+                text-align :center;
+                font-family: monospace;
+            }
+
+            table {
+                margin-left     :auto; 
+                margin-right    :auto;
+                width           :300px;
+                border          :2px solid green;
+                border-collapse :collapse;
+                background-color:appworkspace;
+            }
+        </style>    
+    </head>
+    <body>
+        Enter 2 numbers<br />
+        <form name="myForm" id="myForm" action="handleSum.php" method="post">
+        <table>
+            <tr>
+                <td>Value 1:</td>
+                <td><input type="number" name="value1" ></td>
+            </tr>
+            <tr>
+                <td>Value 2:</td>
+                <td><input type="number" name="value2" ></td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="submit" name="submit" value="calculate"></td>
+            </tr>
+        </table>
+        </form>
+    </body>
+</html>
+
